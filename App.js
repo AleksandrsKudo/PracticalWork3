@@ -13,11 +13,10 @@ export default function App() {
     <NavigationContainer>
     <Stack.Navigator initialRouteName="Home">
       <Stack.Screen name="Home" component={HomeScreen} 
-      options={{ title: 'Home Screen',headerTitleAlign: 'center' }} />
-
+      options={{ title: 'Home Screen', headerTitleAlign: 'center' }} />
 
       <Stack.Screen name="List View" component={ListView} 
-      options={{ title: 'List View',headerTitleAlign: 'center'  }}/>
+      options={{ title: 'List View', headerTitleAlign: 'center' }}/>
       </Stack.Navigator>
     </NavigationContainer>
   );
