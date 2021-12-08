@@ -2,8 +2,8 @@ import * as React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 
-import HomeScreen from './src/Home';
-import ListView from './src/ListView';
+import HomeScreen from './components/Home';
+import ListView from './components/ListView';
 
 
 const Stack = createNativeStackNavigator();
