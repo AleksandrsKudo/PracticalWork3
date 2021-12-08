@@ -1,0 +1,14 @@
+.button-style-dark{
+  height: 37px;
+  width: 122px;
+  border-radius: 45px;
+  background: #3E658A;
+  border-radius: 45px;
+}
+.button-style-light{
+  height: 37px;
+  width: 122px;
+  border-radius: 45px;
+  background: #FFFFFF;
+  border-radius: 45px;
+}
