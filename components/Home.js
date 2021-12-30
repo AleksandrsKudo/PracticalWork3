@@ -1,3 +1,4 @@
+import * as React from 'react';
 import { Text, View, StyleSheet, Button, SafeAreaView } from 'react-native';
 import Constants from 'expo-constants';
 import { useState } from 'react';
